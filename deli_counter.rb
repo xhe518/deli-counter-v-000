@@ -19,6 +19,6 @@ end
 #-----------------take_a_number-------------------
 def take_a_number(katz_deli, customer_name)
 #  katz_deli.each_with_index do |customer, index|
-  line_number = katz_deli.index("customer_name") + 1
-  puts "Welcome, #{customer_name}. You are number #{line_number} in line."
+  line_number = katz_deli.index(customer_name)
+  puts "Welcome, #{customer_name}. You are number #{line_number + 1} in line."
 end
