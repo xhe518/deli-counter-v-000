@@ -5,9 +5,7 @@ def line(katz_deli)
     end
   end
   #names(katz_deli) returns ["1. Ari", "2. Ben"]
-  names(katz_deli).join(" ")
-  #
-
-  #  The line is currently:
+  joined_names = names(katz_deli).join(" ")
+  puts "The line is currently: #{joined_names}"
 end
 #def take_a_number(katz_deli, person)
